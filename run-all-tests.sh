@@ -1,6 +1,6 @@
 #!/bin/bash
 
-testsdir="tests"
+testdir="tests"
 dnscomp="./dns-comp.py"
 
 for i in ${testdir}/*.cmd ; do
