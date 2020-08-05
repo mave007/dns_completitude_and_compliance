@@ -1,0 +1,49 @@
+-
+  type: MESSAGE
+  message:
+    type: AUTH_RESPONSE
+    query_time: !!timestamp 2020-08-05T19:48:49.567Z
+    response_time: !!timestamp 2020-08-05T19:48:49.576Z
+    message_size: 684b
+    socket_family: INET
+    socket_protocol: UDP
+    response_address: 199.7.83.42
+    response_port: 53
+    query_address: 0.0.0.0
+    query_port: 57167
+    response_message_data:
+      opcode: QUERY
+      status: NOERROR
+      id: 27255
+      flags: qr
+      QUESTION: 1
+      ANSWER: 0
+      AUTHORITY: 9
+      ADDITIONAL: 10
+      OPT_PSEUDOSECTION:
+        EDNS:
+          version: 0
+          flags: do
+          udp: 4096
+      QUESTION_SECTION:
+        - us. IN NS
+      AUTHORITY_SECTION:
+        - us. 172800 IN NS a.cctld.us.
+        - us. 172800 IN NS b.cctld.us.
+        - us. 172800 IN NS c.cctld.us.
+        - us. 172800 IN NS e.cctld.us.
+        - us. 172800 IN NS f.cctld.us.
+        - us. 172800 IN NS k.cctld.us.
+        - us. 86400 IN DS 21364 8 1 260D0461242BCF8F05473A08B05ED01E6FA59B9C
+        - us. 86400 IN DS 21364 8 2 B499CFA7B54D25FDE1E6FE93076FB013DAA664DA1F26585324740A1E 6EBDAB26
+        - us. 86400 IN RRSIG DS 8 1 86400 20200818170000 20200805160000 46594 . 1VTDE/lChy7WrDOHyZbEdwyMYanZ8EFb0EaLT7UNyLcZuSaoXRXJxJEo XM8VNooIpLQXHlBQemufW4vwuUBwHAfEyDh9yN7LnIHZxdCaNrlcCHQi 0gvax/7Di4gaOeFYt76ztxqrp5r2/DbKXtVl1nq4GJi5BubhuKRk9OvV pYPob3FJKyG6dQrOepMaQaZPByLXvJ7m6f+jA6O2O+6RzQUyCwrK+03N yFrxCUD1j+atJEJnXa0VQiKJw1WZ6bQMN4jLqvpfYECqINktxuwUWqsk +uahBUuXHdOShkw4myJXIz1exI8D6hZdcySH4K1WBTu8iBb2jQ3OQFo7 BV7hpQ==
+      ADDITIONAL_SECTION:
+        - a.cctld.us. 172800 IN A 156.154.124.70
+        - b.cctld.us. 172800 IN A 156.154.125.70
+        - b.cctld.us. 172800 IN AAAA 2001:502:ad09::29
+        - c.cctld.us. 172800 IN A 156.154.127.70
+        - e.cctld.us. 172800 IN A 156.154.126.70
+        - f.cctld.us. 172800 IN A 209.173.58.70
+        - f.cctld.us. 172800 IN AAAA 2001:500:3682::11
+        - k.cctld.us. 172800 IN A 156.154.128.70
+        - k.cctld.us. 172800 IN AAAA 2001:503:e239::3:1

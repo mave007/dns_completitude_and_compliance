@@ -1,0 +1,27 @@
+-
+  type: MESSAGE
+  message:
+    type: AUTH_RESPONSE
+    query_time: !!timestamp 2020-08-05T19:48:57.473Z
+    response_time: !!timestamp 2020-08-05T19:48:57.482Z
+    message_size: 23b
+    socket_family: INET6
+    socket_protocol: TCP
+    response_address: ::ffff:199.7.83.42
+    response_port: 53
+    query_address: ::ffff:10.32.60.17
+    query_port: 61740
+    response_message_data:
+      opcode: QUERY
+      status: BADVERS
+      id: 17312
+      flags: qr
+      QUESTION: 0
+      ANSWER: 0
+      AUTHORITY: 0
+      ADDITIONAL: 1
+      OPT_PSEUDOSECTION:
+        EDNS:
+          version: 0
+          flags:
+          udp: 4096

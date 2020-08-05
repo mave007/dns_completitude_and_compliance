@@ -1,0 +1,27 @@
+-
+  type: MESSAGE
+  message:
+    type: AUTH_RESPONSE
+    query_time: !!timestamp 2020-08-05T19:48:52.649Z
+    response_time: !!timestamp 2020-08-05T19:48:52.658Z
+    message_size: 23b
+    socket_family: INET
+    socket_protocol: TCP
+    response_address: 199.7.83.42
+    response_port: 53
+    query_address: 10.32.60.17
+    query_port: 61695
+    response_message_data:
+      opcode: RESERVED15
+      status: NOTIMP
+      id: 45204
+      flags: qr
+      QUESTION: 0
+      ANSWER: 0
+      AUTHORITY: 0
+      ADDITIONAL: 1
+      OPT_PSEUDOSECTION:
+        EDNS:
+          version: 0
+          flags: do
+          udp: 4096

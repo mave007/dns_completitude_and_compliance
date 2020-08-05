@@ -1,0 +1,22 @@
+-
+  type: MESSAGE
+  message:
+    type: AUTH_RESPONSE
+    query_time: !!timestamp 2020-08-05T19:48:52.774Z
+    response_time: !!timestamp 2020-08-05T19:48:52.782Z
+    message_size: 12b
+    socket_family: INET6
+    socket_protocol: TCP
+    response_address: ::ffff:199.7.83.42
+    response_port: 53
+    query_address: ::ffff:10.32.60.17
+    query_port: 61696
+    response_message_data:
+      opcode: RESERVED15
+      status: NOTIMP
+      id: 28216
+      flags: qr
+      QUESTION: 0
+      ANSWER: 0
+      AUTHORITY: 0
+      ADDITIONAL: 0

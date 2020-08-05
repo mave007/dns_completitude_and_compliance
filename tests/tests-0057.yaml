@@ -1,0 +1,32 @@
+-
+  type: MESSAGE
+  message:
+    type: AUTH_RESPONSE
+    query_time: !!timestamp 2020-08-05T19:48:51.718Z
+    response_time: !!timestamp 2020-08-05T19:48:51.727Z
+    message_size: 389b
+    socket_family: INET
+    socket_protocol: UDP
+    response_address: 199.7.83.42
+    response_port: 53
+    query_address: 0.0.0.0
+    query_port: 58162
+    response_message_data:
+      opcode: QUERY
+      status: NOERROR
+      id: 54715
+      flags: qr aa rd
+      QUESTION: 1
+      ANSWER: 2
+      AUTHORITY: 0
+      ADDITIONAL: 1
+      OPT_PSEUDOSECTION:
+        EDNS:
+          version: 0
+          flags: do
+          udp: 4096
+      QUESTION_SECTION:
+        - . IN SOA
+      ANSWER_SECTION:
+        - . 86400 IN SOA a.root-servers.net. nstld.verisign-grs.com. 2020080501 1800 900 604800 86400
+        - . 86400 IN RRSIG SOA 8 0 86400 20200818170000 20200805160000 46594 . 1Bx0SPbkIPu9EGWs6UgBhY0dMUWGXOsxAMII0s3vShajHaEmCmgnrmTy We1IcSMoAmjfk30aGv2/25uE6sZl50q+NlIXBreAmbaa8EfoXCvlJMlf zYE/uVR6e5/AMoilZqxnohmk5UVFY31F8AmmRle9kyctreaddghOsalJ X+0F9XQljndt6Q9M9QAWsxgNOLiJOL3CaEfRy5yneoyvZ0gtqIvtCFoq nBmpfd6xjn+rUwYiTu5PD8lzyNBi5IuUXi6c9SwlmoiADzGI2Qwm/O+M NawHcSnB/TB5Rgn8JJqp5fz7SbaT4oRQeGBuL9FyZvuzz+0WLhyq4V22 LKV+rw==

@@ -1,0 +1,33 @@
+-
+  type: MESSAGE
+  message:
+    type: AUTH_RESPONSE
+    query_time: !!timestamp 2020-08-05T19:48:49.397Z
+    response_time: !!timestamp 2020-08-05T19:48:49.405Z
+    message_size: 402b
+    socket_family: INET
+    socket_protocol: TCP
+    response_address: 199.7.83.42
+    response_port: 53
+    query_address: 10.32.60.17
+    query_port: 61669
+    response_message_data:
+      opcode: QUERY
+      status: NOERROR
+      id: 18831
+      flags: qr aa
+      QUESTION: 1
+      ANSWER: 3
+      AUTHORITY: 0
+      ADDITIONAL: 1
+      OPT_PSEUDOSECTION:
+        EDNS:
+          version: 0
+          flags: do
+          udp: 4096
+      QUESTION_SECTION:
+        - us. IN DS
+      ANSWER_SECTION:
+        - us. 86400 IN DS 21364 8 1 260D0461242BCF8F05473A08B05ED01E6FA59B9C
+        - us. 86400 IN DS 21364 8 2 B499CFA7B54D25FDE1E6FE93076FB013DAA664DA1F26585324740A1E 6EBDAB26
+        - us. 86400 IN RRSIG DS 8 1 86400 20200818170000 20200805160000 46594 . 1VTDE/lChy7WrDOHyZbEdwyMYanZ8EFb0EaLT7UNyLcZuSaoXRXJxJEo XM8VNooIpLQXHlBQemufW4vwuUBwHAfEyDh9yN7LnIHZxdCaNrlcCHQi 0gvax/7Di4gaOeFYt76ztxqrp5r2/DbKXtVl1nq4GJi5BubhuKRk9OvV pYPob3FJKyG6dQrOepMaQaZPByLXvJ7m6f+jA6O2O+6RzQUyCwrK+03N yFrxCUD1j+atJEJnXa0VQiKJw1WZ6bQMN4jLqvpfYECqINktxuwUWqsk +uahBUuXHdOShkw4myJXIz1exI8D6hZdcySH4K1WBTu8iBb2jQ3OQFo7 BV7hpQ==

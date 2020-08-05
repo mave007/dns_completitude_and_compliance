@@ -1,0 +1,44 @@
+-
+  type: MESSAGE
+  message:
+    type: AUTH_RESPONSE
+    query_time: !!timestamp 2020-08-05T19:48:49.809Z
+    response_time: !!timestamp 2020-08-05T19:48:49.817Z
+    message_size: 567b
+    socket_family: INET
+    socket_protocol: UDP
+    response_address: 199.7.83.42
+    response_port: 53
+    query_address: 0.0.0.0
+    query_port: 61499
+    response_message_data:
+      opcode: QUERY
+      status: NOERROR
+      id: 31300
+      flags: qr
+      QUESTION: 1
+      ANSWER: 0
+      AUTHORITY: 7
+      ADDITIONAL: 7
+      OPT_PSEUDOSECTION:
+        EDNS:
+          version: 0
+          flags: do
+          udp: 4096
+      QUESTION_SECTION:
+        - cm. IN NS
+      AUTHORITY_SECTION:
+        - cm. 172800 IN NS ns.itu.ch.
+        - cm. 172800 IN NS kim.camnet.cm.
+        - cm. 172800 IN NS lom.camnet.cm.
+        - cm. 172800 IN NS auth02.ns.uu.net.
+        - cm. 172800 IN NS sanaga.camnet.cm.
+        - cm. 86400 IN NSEC cn. NS RRSIG NSEC
+        - cm. 86400 IN RRSIG NSEC 8 1 86400 20200818170000 20200805160000 46594 . oTXyj69hkcCbRrYVe+deSdSnk7B1ZmdIb1BicPpUXFoyQl/gCDmaTSVO pSIWMLqpifdAYd8Ri+PpxN2skMMGi+bGhYPHtQTYMZcDOhOKPmyYZOF7 /8i/2BYIqoIZhFW5TaDoqyzF/m3fHU3MPCLcS6mX5eDuQe5QJcm4l2ZS TciYUaCfIy2kTrja0PvU6SAQs7i910Ji8+64FhK6qai8TtKV9gpldDCY Jph3oJZx07nAK3834UubAEJHr31Z15r9vw39u1NEDyr+R9nQibcDlb/A Hd51sxyToJC2PMs5dSf2qAb2p6cLljIZt3ekG6jn9+MoT8fDEZ74FFKW aHB85g==
+      ADDITIONAL_SECTION:
+        - ns.itu.ch. 172800 IN A 156.106.192.121
+        - kim.camnet.cm. 172800 IN A 195.24.192.35
+        - lom.camnet.cm. 172800 IN A 195.24.192.34
+        - auth02.ns.uu.net. 172800 IN A 198.6.1.82
+        - sanaga.camnet.cm. 172800 IN A 195.24.192.17
+        - ns.itu.ch. 172800 IN AAAA 2a00:7580:60:2141::10
