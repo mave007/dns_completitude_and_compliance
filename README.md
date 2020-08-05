@@ -4,6 +4,24 @@ The objective of this set of scripts, is to create a comparison point
 between a known server implementation and a test target, by using the
 capabilities of ISC bind utility `dig` and its `+yaml` output.
 
+## Motivation
+Verify that all the core DNS capabilities for a server are compatible
+and compliant to the IETF standard to ensure interoperation Security,
+Stability and Resiliency of the Domain Name System.
+
+This tool is meant to be integrated as unittest for a CI/CD deployment
+environment, while creating an easy and quick way to introduce new
+tests. You will only need 2 files per test: A comparisson YAML output
+and an dig command to test that capability.
+
+### Use cases
+- Test a DNS implementation before a patch or upgrade is done to note
+behavior changes between the versions.
+- Test a different DNS implementation from another vendor that you
+would like to introduce into your infrastructure and test if it has
+the same capabilities
+
+
 # Requirements
 
 - dig (bind-utils or dnsutils) > 9.15
