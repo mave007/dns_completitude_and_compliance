@@ -24,7 +24,7 @@ the same capabilities
 
 # Requirements
 
-- dig (bind-utils or dnsutils) > 9.15
+- dig (bind-utils or dnsutils) > 9.15.4
 - Python libraries (via pip3):
   - PyYAML
   - argparse
@@ -72,11 +72,13 @@ With the utility `generate_query_tests.sh` you can create several already pre-ma
 - ISC DNS Compliance-Testing - https://gitlab.isc.org/isc-projects/DNS-Compliance-Testing
 
 Follow the variables on top of this script to modify its default values:
-- `${dig}`: Location of dig binary (> 9.15)
+- `${dig}`: Location of dig binary (version 9.15.4 or superior)
 - `${outputdir}`: Where to store the tests
 - `${domain}`: Target domain that you will test
-- `${srv-ok}`: Server you will store the target YAML output
+- `${srv-test}`: Server to be tested
 - `${srv-expected}`: Server that you will query to compare against
+
+Modify testdir in run-all-tests.sh to match outputdir from above.
 
 ## TL-DR:
 ```bash
