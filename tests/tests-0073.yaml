@@ -1,23 +1,27 @@
 -
   type: MESSAGE
   message:
-    type: RECURSIVE_RESPONSE
-    query_time: !!timestamp 2020-08-05T19:48:52.843Z
-    response_time: !!timestamp 2020-08-05T19:48:52.851Z
-    message_size: 12b
+    type: AUTH_RESPONSE
+    query_time: !!timestamp 2020-09-04T17:52:37.957Z
+    response_time: !!timestamp 2020-09-04T17:52:38.027Z
+    message_size: 23b
     socket_family: INET
-    socket_protocol: TCP
-    response_address: 199.7.83.42
+    socket_protocol: UDP
+    response_address: 192.0.40.1
     response_port: 53
-    query_address: 10.32.60.17
-    query_port: 61697
+    query_address: 0.0.0.0
+    query_port: 62258
     response_message_data:
       opcode: RESERVED15
       status: NOTIMP
-      id: 31951
-      flags: qr aa tc rd ra cd
-      MBZ: 0x4
+      id: 26584
+      flags: qr rd
       QUESTION: 0
       ANSWER: 0
       AUTHORITY: 0
-      ADDITIONAL: 0
+      ADDITIONAL: 1
+      OPT_PSEUDOSECTION:
+        EDNS:
+          version: 0
+          flags: do
+          udp: 4096

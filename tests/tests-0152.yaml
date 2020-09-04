@@ -2,26 +2,28 @@
   type: MESSAGE
   message:
     type: AUTH_RESPONSE
-    query_time: !!timestamp 2020-08-05T19:48:57.713Z
-    response_time: !!timestamp 2020-08-05T19:48:57.721Z
-    message_size: 23b
+    query_time: !!timestamp 2020-09-04T17:52:50.682Z
+    response_time: !!timestamp 2020-09-04T17:52:50.752Z
+    message_size: 28b
     socket_family: INET6
     socket_protocol: TCP
-    response_address: ::ffff:199.7.83.42
+    response_address: ::ffff:192.0.40.1
     response_port: 53
     query_address: ::ffff:10.32.60.17
-    query_port: 61742
+    query_port: 63873
     response_message_data:
       opcode: QUERY
       status: BADVERS
-      id: 30948
+      id: 63336
       flags: qr
-      QUESTION: 0
+      QUESTION: 1
       ANSWER: 0
       AUTHORITY: 0
       ADDITIONAL: 1
       OPT_PSEUDOSECTION:
         EDNS:
           version: 0
-          flags:
+          flags: do
           udp: 4096
+      QUESTION_SECTION:
+        - . IN SOA

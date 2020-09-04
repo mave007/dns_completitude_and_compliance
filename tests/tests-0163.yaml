@@ -2,24 +2,24 @@
   type: MESSAGE
   message:
     type: AUTH_RESPONSE
-    query_time: !!timestamp 2020-08-05T19:48:58.379Z
-    response_time: !!timestamp 2020-08-05T19:48:58.388Z
-    message_size: 1216b
+    query_time: !!timestamp 2020-09-04T17:52:52.652Z
+    response_time: !!timestamp 2020-09-04T17:52:52.723Z
+    message_size: 389b
     socket_family: INET6
     socket_protocol: UDP
-    response_address: ::ffff:199.7.83.42
+    response_address: ::ffff:192.0.40.1
     response_port: 53
     query_address: ::0
-    query_port: 49678
+    query_port: 62466
     response_message_data:
       opcode: QUERY
       status: NOERROR
-      id: 23404
+      id: 24684
       flags: qr aa
       QUESTION: 1
       ANSWER: 2
-      AUTHORITY: 14
-      ADDITIONAL: 19
+      AUTHORITY: 0
+      ADDITIONAL: 1
       OPT_PSEUDOSECTION:
         EDNS:
           version: 0
@@ -28,39 +28,5 @@
       QUESTION_SECTION:
         - . IN SOA
       ANSWER_SECTION:
-        - . 86400 IN SOA a.root-servers.net. nstld.verisign-grs.com. 2020080501 1800 900 604800 86400
-        - . 86400 IN RRSIG SOA 8 0 86400 20200818170000 20200805160000 46594 . 1Bx0SPbkIPu9EGWs6UgBhY0dMUWGXOsxAMII0s3vShajHaEmCmgnrmTy We1IcSMoAmjfk30aGv2/25uE6sZl50q+NlIXBreAmbaa8EfoXCvlJMlf zYE/uVR6e5/AMoilZqxnohmk5UVFY31F8AmmRle9kyctreaddghOsalJ X+0F9XQljndt6Q9M9QAWsxgNOLiJOL3CaEfRy5yneoyvZ0gtqIvtCFoq nBmpfd6xjn+rUwYiTu5PD8lzyNBi5IuUXi6c9SwlmoiADzGI2Qwm/O+M NawHcSnB/TB5Rgn8JJqp5fz7SbaT4oRQeGBuL9FyZvuzz+0WLhyq4V22 LKV+rw==
-      AUTHORITY_SECTION:
-        - . 518400 IN NS a.root-servers.net.
-        - . 518400 IN NS b.root-servers.net.
-        - . 518400 IN NS c.root-servers.net.
-        - . 518400 IN NS d.root-servers.net.
-        - . 518400 IN NS e.root-servers.net.
-        - . 518400 IN NS f.root-servers.net.
-        - . 518400 IN NS g.root-servers.net.
-        - . 518400 IN NS h.root-servers.net.
-        - . 518400 IN NS i.root-servers.net.
-        - . 518400 IN NS j.root-servers.net.
-        - . 518400 IN NS k.root-servers.net.
-        - . 518400 IN NS l.root-servers.net.
-        - . 518400 IN NS m.root-servers.net.
-        - . 518400 IN RRSIG NS 8 0 518400 20200818170000 20200805160000 46594 . zcK9AZZrZvZbgPkUR+1fyQqABXalmru+roDblfBhb8wpmRI3Rgnd5vur q9Akd8dte3P+GxYDDYh9cY7mGYRLLlQICRkiKq2hS5Kvs7LOLGy+HSBW ZJVGoszDduJxFR4gOzPqr1xoRZ/vwDeSTMPY08YVFO++26Z3x3Ocn9JQ ab7tARO/kdhBxU2QUYsNsgvhQ9WjJUoatEctkCksIwCF2d/LFV/5C96F aptBq07jeEHl+OTZltraCLNvMmkFIQfXC97cTN6QD+NLqI7Ku/ckJMgH wAhxqv4hLxp6YbqZSD9CsUeOaGZ+z1X7Jg1xGg0JN7U+vD1arr8AXaX1 6GdCQQ==
-      ADDITIONAL_SECTION:
-        - a.root-servers.net. 518400 IN A 198.41.0.4
-        - b.root-servers.net. 518400 IN A 199.9.14.201
-        - c.root-servers.net. 518400 IN A 192.33.4.12
-        - d.root-servers.net. 518400 IN A 199.7.91.13
-        - e.root-servers.net. 518400 IN A 192.203.230.10
-        - f.root-servers.net. 518400 IN A 192.5.5.241
-        - g.root-servers.net. 518400 IN A 192.112.36.4
-        - h.root-servers.net. 518400 IN A 198.97.190.53
-        - i.root-servers.net. 518400 IN A 192.36.148.17
-        - j.root-servers.net. 518400 IN A 192.58.128.30
-        - k.root-servers.net. 518400 IN A 193.0.14.129
-        - l.root-servers.net. 518400 IN A 199.7.83.42
-        - m.root-servers.net. 518400 IN A 202.12.27.33
-        - a.root-servers.net. 518400 IN AAAA 2001:503:ba3e::2:30
-        - b.root-servers.net. 518400 IN AAAA 2001:500:200::b
-        - c.root-servers.net. 518400 IN AAAA 2001:500:2::c
-        - d.root-servers.net. 518400 IN AAAA 2001:500:2d::d
-        - e.root-servers.net. 518400 IN AAAA 2001:500:a8::e
+        - . 86400 IN SOA a.root-servers.net. nstld.verisign-grs.com. 2020090400 1800 900 604800 86400
+        - . 86400 IN RRSIG SOA 8 0 86400 20200917050000 20200904040000 46594 . 1fdHmAs7tAYpPxPgpft+mokcbhvgNXDmXjut7gMhHHviC/PHGeYKyw7H +3dkmbEhmk8HKhfthn4Vxr9uTotST71TOra7/kNolxlRj9e5s4CIaHDG 4IM+dshoFnqhN+ocd04n9ohdjRW63Vi1fy7N8kfQEaml+EP5ZeE66fQI MLsV2C7WuoU/vULmJvfWam4tXcN5n1QKGouMJCIb7067hyvhkXGJPTxk ByCH+Wqqcdtom83WnCPHe5P9m9PiNLBcVkTvcO8lX3OW+P38Dxa4wTeb fQT2qksEu1Q7sGe66wyj0dZWPeNaslxRTzoaAuDs0RaXSJnIdjHobDT8 8ELgDQ==

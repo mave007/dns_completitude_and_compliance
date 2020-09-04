@@ -2,21 +2,26 @@
   type: MESSAGE
   message:
     type: AUTH_RESPONSE
-    query_time: !!timestamp 2020-08-05T19:48:52.708Z
-    response_time: !!timestamp 2020-08-05T19:48:52.717Z
-    message_size: 12b
+    query_time: !!timestamp 2020-09-04T17:52:37.647Z
+    response_time: !!timestamp 2020-09-04T17:52:37.718Z
+    message_size: 23b
     socket_family: INET6
     socket_protocol: UDP
-    response_address: ::ffff:199.7.83.42
+    response_address: ::ffff:192.0.40.1
     response_port: 53
     query_address: ::0
-    query_port: 63633
+    query_port: 64274
     response_message_data:
       opcode: RESERVED15
       status: NOTIMP
-      id: 41687
+      id: 5889
       flags: qr
       QUESTION: 0
       ANSWER: 0
       AUTHORITY: 0
-      ADDITIONAL: 0
+      ADDITIONAL: 1
+      OPT_PSEUDOSECTION:
+        EDNS:
+          version: 0
+          flags: do
+          udp: 4096

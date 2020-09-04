@@ -2,19 +2,19 @@
   type: MESSAGE
   message:
     type: AUTH_RESPONSE
-    query_time: !!timestamp 2020-08-05T19:48:55.431Z
-    response_time: !!timestamp 2020-08-05T19:48:55.439Z
+    query_time: !!timestamp 2020-09-04T17:52:44.904Z
+    response_time: !!timestamp 2020-09-04T17:52:44.976Z
     message_size: 28b
     socket_family: INET6
     socket_protocol: TCP
-    response_address: ::ffff:199.7.83.42
+    response_address: ::ffff:192.0.40.1
     response_port: 53
     query_address: ::ffff:10.32.60.17
-    query_port: 61722
+    query_port: 63854
     response_message_data:
       opcode: QUERY
       status: BADVERS
-      id: 35134
+      id: 9665
       flags: qr
       QUESTION: 1
       ANSWER: 0

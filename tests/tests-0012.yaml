@@ -2,19 +2,19 @@
   type: MESSAGE
   message:
     type: AUTH_RESPONSE
-    query_time: !!timestamp 2020-08-05T19:48:49.040Z
-    response_time: !!timestamp 2020-08-05T19:48:49.048Z
+    query_time: !!timestamp 2020-09-04T17:52:28.590Z
+    response_time: !!timestamp 2020-09-04T17:52:28.661Z
     message_size: 1289b
     socket_family: INET6
     socket_protocol: TCP
-    response_address: ::ffff:199.7.83.42
+    response_address: ::ffff:192.0.40.1
     response_port: 53
     query_address: ::ffff:10.32.60.17
-    query_port: 61666
+    query_port: 63800
     response_message_data:
       opcode: QUERY
       status: NOERROR
-      id: 19292
+      id: 5385
       flags: qr aa
       QUESTION: 1
       ANSWER: 14
@@ -41,7 +41,7 @@
         - . 518400 IN NS k.root-servers.net.
         - . 518400 IN NS l.root-servers.net.
         - . 518400 IN NS m.root-servers.net.
-        - . 518400 IN RRSIG NS 8 0 518400 20200818170000 20200805160000 46594 . zcK9AZZrZvZbgPkUR+1fyQqABXalmru+roDblfBhb8wpmRI3Rgnd5vur q9Akd8dte3P+GxYDDYh9cY7mGYRLLlQICRkiKq2hS5Kvs7LOLGy+HSBW ZJVGoszDduJxFR4gOzPqr1xoRZ/vwDeSTMPY08YVFO++26Z3x3Ocn9JQ ab7tARO/kdhBxU2QUYsNsgvhQ9WjJUoatEctkCksIwCF2d/LFV/5C96F aptBq07jeEHl+OTZltraCLNvMmkFIQfXC97cTN6QD+NLqI7Ku/ckJMgH wAhxqv4hLxp6YbqZSD9CsUeOaGZ+z1X7Jg1xGg0JN7U+vD1arr8AXaX1 6GdCQQ==
+        - . 518400 IN RRSIG NS 8 0 518400 20200917050000 20200904040000 46594 . pmvYB1fdiWFuo9tjE8yxu+ftc4v6coR3MZiwS+r8jW849YP4iGaBGtro euy0B/uUmhY2BLrgDcjzp5EkldeAb22yPUvSRYrziUU6nhytKyBoLH4A ATvhWCsVnrfhuwl6wvKz08bGvrwUNoKMvav2iuvzlccT/q4G+hyMj4Uu VFl/fOy/JuFViFNd32dTVHzdrsz+gB5OETi4Jqk0SyqNZIxjeyVqRHMi bUNwWnPy489Fzmf6eu2Vo+AHAupydP6TAj0dJzcbSdv/QwvWl2Lhc+6x qFBRbE6Y8mNlIChKlGmx0sg/IhmtWGpPD2Z7/fJMyQ+SnbI7VcByWt26 CcqSRw==
       ADDITIONAL_SECTION:
         - a.root-servers.net. 518400 IN A 198.41.0.4
         - a.root-servers.net. 518400 IN AAAA 2001:503:ba3e::2:30

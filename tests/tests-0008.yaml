@@ -2,19 +2,19 @@
   type: MESSAGE
   message:
     type: AUTH_RESPONSE
-    query_time: !!timestamp 2020-08-05T19:48:48.801Z
-    response_time: !!timestamp 2020-08-05T19:48:48.810Z
+    query_time: !!timestamp 2020-09-04T17:52:27.973Z
+    response_time: !!timestamp 2020-09-04T17:52:28.044Z
     message_size: 864b
     socket_family: INET6
     socket_protocol: TCP
-    response_address: ::ffff:199.7.83.42
+    response_address: ::ffff:192.0.40.1
     response_port: 53
     query_address: ::ffff:10.32.60.17
-    query_port: 61664
+    query_port: 63798
     response_message_data:
       opcode: QUERY
       status: NOERROR
-      id: 23570
+      id: 52404
       flags: qr aa
       QUESTION: 1
       ANSWER: 3
@@ -30,4 +30,4 @@
       ANSWER_SECTION:
         - . 172800 IN DNSKEY 256 3 8 AwEAAdauOGxLhfAKFTTZwGhBXbk793QKdWIQRjiSftWdusCwkPhNyJrI jwtNffCWXGLlZAbpcs414RE3oS1qVwV+AdXsO92SBu5haGlxMUk0NqZO 7Xlf84/wrzGZVRRouPo5pNX/CKS8Mv9UOi0olKGCu31dNfh8qCszWZcl oLDgeLzSnQSkvFoGe69vNCfh7feESKedkBC2qRz0BZv9+oJI0IY/3D7W EnV0NOlf8gSHozhfJFJ/ZAKtvw/Q3ogrVJFk0LyVaU/NVtVA5FM4pVMI RID7pfrPi78aAzG7b/Wh/Pce4jPAIpS3dApq25YkvMuPvfB91NMf9Fem Kwlp78PBVcM=
         - . 172800 IN DNSKEY 257 3 8 AwEAAaz/tAm8yTn4Mfeh5eyI96WSVexTBAvkMgJzkKTOiW1vkIbzxeF3 +/4RgWOq7HrxRixHlFlExOLAJr5emLvN7SWXgnLh4+B5xQlNVz8Og8kv ArMtNROxVQuCaSnIDdD5LKyWbRd2n9WGe2R8PzgCmr3EgVLrjyBxWezF 0jLHwVN8efS3rCj/EWgvIWgb9tarpVUDK/b58Da+sqqls3eNbuv7pr+e oZG+SrDK6nWeL3c6H5Apxz7LjVc1uTIdsIXxuOLYA4/ilBmSVIzuDWfd RUfhHdY6+cn8HFRm+2hM8AnXGXws9555KrUB5qihylGa8subX2Nn6UwN R1AkUTV74bU=
-        - . 172800 IN RRSIG DNSKEY 8 0 172800 20200821000000 20200731000000 20326 . L2rJadIIoGRdheHJ6xBo8t8XCcTO2rA0F7ZLsAPKtjK4lmvoBWL/vVuB NkUkeecei038w3FrmzzLKeKNPvlC6iRihYvJZJk7yvmmWBcus7QZ9Z55 0LRrThnArghMSOGOFrEn0RN5RccsyU/WoaGDZ5gF42YEb6qCRuSDuWk7 nCGXVEFD3t3u+GOfdkYMVddTX5ocYe2o6mb0U3rNc9JycOpm5Na4hilx Dzq7Y64H8ekRviWuQAOibhzMOtuaX3aI+5PxEza/362iOnQrK64OSE5m 8Yg8903bebeVCytTnJFXGM201AVOJH8yzcnTdVi2lTHxH2iCMCsNvfqZ vfk1nw==
+        - . 172800 IN RRSIG DNSKEY 8 0 172800 20200920000000 20200830000000 20326 . XY43Ukw9L5kvAyoVFc/y54iTzbEK6TKi4Jm47iRObUy1MtbDjaop4wOH zgAtgRBVC5cxAj0bbwrTa2SXcU7xr/MzThDfKMRII5ETHJInV8AXiv/G R/3zDn67kerCYAqSH5jYdAF5W6Au59MiM/SjEcRUhDSTNo/ACXpvJeJR VrerqCK/8T2pvSsr0kAIjnpY30Pgno4RWOjYonjL7G5s+DHrTreMPMpE GwLY3iNimwwYajbLBiVmB6Tfz3ZWF5dVsRRzkoonaykdWMXBCXbuu4nU HndERgZety/fRkc77DWdWeZ7elbYyLgYjSnGbOl4/BXiXhnsJjx7r5Yr zaxcyg==

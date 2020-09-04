@@ -2,19 +2,19 @@
   type: MESSAGE
   message:
     type: AUTH_RESPONSE
-    query_time: !!timestamp 2020-08-05T19:48:50.010Z
-    response_time: !!timestamp 2020-08-05T19:48:50.026Z
+    query_time: !!timestamp 2020-09-04T17:52:31.053Z
+    response_time: !!timestamp 2020-09-04T17:52:31.123Z
     message_size: 578b
     socket_family: INET6
     socket_protocol: TCP
-    response_address: ::ffff:199.7.83.42
+    response_address: ::ffff:192.0.40.1
     response_port: 53
     query_address: ::ffff:10.32.60.17
-    query_port: 61674
+    query_port: 63808
     response_message_data:
       opcode: QUERY
       status: NOERROR
-      id: 10258
+      id: 36287
       flags: qr
       QUESTION: 1
       ANSWER: 0
@@ -34,7 +34,7 @@
         - cm. 172800 IN NS auth02.ns.uu.net.
         - cm. 172800 IN NS sanaga.camnet.cm.
         - cm. 86400 IN NSEC cn. NS RRSIG NSEC
-        - cm. 86400 IN RRSIG NSEC 8 1 86400 20200818170000 20200805160000 46594 . oTXyj69hkcCbRrYVe+deSdSnk7B1ZmdIb1BicPpUXFoyQl/gCDmaTSVO pSIWMLqpifdAYd8Ri+PpxN2skMMGi+bGhYPHtQTYMZcDOhOKPmyYZOF7 /8i/2BYIqoIZhFW5TaDoqyzF/m3fHU3MPCLcS6mX5eDuQe5QJcm4l2ZS TciYUaCfIy2kTrja0PvU6SAQs7i910Ji8+64FhK6qai8TtKV9gpldDCY Jph3oJZx07nAK3834UubAEJHr31Z15r9vw39u1NEDyr+R9nQibcDlb/A Hd51sxyToJC2PMs5dSf2qAb2p6cLljIZt3ekG6jn9+MoT8fDEZ74FFKW aHB85g==
+        - cm. 86400 IN RRSIG NSEC 8 1 86400 20200917050000 20200904040000 46594 . CtAvYvp+SP5hV+RN2X0l8agQ4T96MSl23eC7KRPbT3wKtVGgvo5EpnpZ aHe5f7d4NGFJVexBG0+y9lWZOtZtZhWBpPVm3pr0nHX5t63WZc7m4TCY 6pg8dyWARKZ50W5ogocDwSwXFYv05x7jR7aJL0ZpleBIEdyGJBCua6v5 9RVL4uLQ47rtk/rThIHAnLkzIR4p8WYvSHxJGhgM+rK2n8O5CtKR6Phm dL9czQgpUxgyfToUQ+cjH0lfFb/KHnxaJak0XqQVhu4Hx2wSvcDEoXgk arfNrm4JTdHN9cce+4ovWSw7BBHNqIuJVD14OXd4SeH94LUjQlFvoux2 nDuJUA==
       ADDITIONAL_SECTION:
         - kim.camnet.cm. 172800 IN A 195.24.192.35
         - lom.camnet.cm. 172800 IN A 195.24.192.34

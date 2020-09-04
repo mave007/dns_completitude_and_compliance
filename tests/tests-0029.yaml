@@ -2,19 +2,19 @@
   type: MESSAGE
   message:
     type: AUTH_RESPONSE
-    query_time: !!timestamp 2020-08-05T19:48:50.069Z
-    response_time: !!timestamp 2020-08-05T19:48:50.078Z
+    query_time: !!timestamp 2020-09-04T17:52:31.171Z
+    response_time: !!timestamp 2020-09-04T17:52:31.242Z
     message_size: 812b
     socket_family: INET
     socket_protocol: UDP
-    response_address: 199.7.83.42
+    response_address: 192.0.40.1
     response_port: 53
     query_address: 0.0.0.0
-    query_port: 56015
+    query_port: 60870
     response_message_data:
       opcode: QUERY
       status: NOERROR
-      id: 51065
+      id: 52123
       flags: qr
       QUESTION: 1
       ANSWER: 0
@@ -36,7 +36,7 @@
         - cl. 172800 IN NS cl1-tld.d-zone.ca.
         - cl. 172800 IN NS cl2-tld.d-zone.ca.
         - cl. 86400 IN DS 21199 8 2 7D756DFFAB6D3CD9C786FF5C659954C22944FAEF9433EEE26F1D84EB 5370B394
-        - cl. 86400 IN RRSIG DS 8 1 86400 20200818170000 20200805160000 46594 . mB2s6gLM3eqNZOFcy9NDPZLh+RjVw85YFn8fS6VzRlRe9gahRgONQXJF Jl7lYZEVmCKmbL8lZGOS8pODvEm6N1BUMRMfXZhVeyVeUoK9ieWp5EQh A+7FphS0iiEQejpDqaMaTOiX0aY5YUobu/7Vxxqzea4rW4G1566BeJMw 3krf1iYIx6UPVD5mPglMdgiv2pQKOsY6yRbTNuGTFFh+E+HY8AQgxkvH ee6QjyBTBtuFIvo6niS5mx10+t8+iys496MLm3d92jNZz3hhSLWq+DFl V/6q1w2Uj8NWzKt2ZAZ4H7wwDoC2PXrT24tN0Cby/CxilZCTJR1Xr6q4 ksEWvw==
+        - cl. 86400 IN RRSIG DS 8 1 86400 20200917050000 20200904040000 46594 . OHM4LEyhF6A7CcY5rRzboANYMNhX810x5Q9mOBgRuP6ZYU8n3HX3HTcv pDeeY1edMEJYLVpL211gWizAk8ShCIbE/a8hTZABEYrpi0UpDwaLSmbs Bh+2dwRnK58zdYDoud7XZZbmE68jcjKMht4tVzpgUkz6m/i7SyMjS7vC qadeE/py4GRvqXV9baGMwuK7TgSV7vhwmm7QzKcd0UrgjmIOXjlhJxel TFEGi9GE9CMVxnpsxevOSLi5Nq7HjM1TV2aoSq6VvZAVnYep8loBJpcg pC0gKC44H6lweM1zg0Uf1yOk3iFCJOiWzxHCDDCHY32h/qBQ43OgNepD tsiQ0Q==
       ADDITIONAL_SECTION:
         - a.nic.cl. 172800 IN A 190.124.27.10
         - a.nic.cl. 172800 IN AAAA 2001:1398:121::190:124:27:10
