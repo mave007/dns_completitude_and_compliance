@@ -7,8 +7,8 @@ import subprocess
 import re
 
 # Function to compare
-def compare_query_result(expected, result, excludelist):
-	ok_test = yaml.load(open(expected), Loader=yaml.FullLoader)
+def compare_query_result(expected_yaml, result, excludelist):
+	ok_test = yaml.load(open(expected_yaml), Loader=yaml.FullLoader)
 	#compare = yaml.load(open(result), Loader=yaml.FullLoader)
 	#print (yaml.dump(ok_test))
 	#print (yaml.dump(result))
@@ -30,14 +30,15 @@ def run_dns_query(cmd):
 
 if __name__ == "__main__":
 	parser = argparse.ArgumentParser(description= "Compare DNS outputs stored in YAML format")
-	parser.add_argument("expected", help="Correct (expected) DNS YAML file")
-	parser.add_argument("queryfile", help="File with dig query to run")
+	parser.add_argument("expected_yaml", help="Correct (expected_yaml) DNS YAML file")
+	parser.add_argument("queryfile_cmd", help="File with dig query to run")
 	args = parser.parse_args()
 	
 	exclude = ("root[0]['message']['query_port']",
 		"root[0]['message']['query_time']",
 		"root[0]['message']['response_time']",
 		"root[0]['message']['response_message_data']['OPT_PSEUDOSECTION']['EDNS']['COOKIE']",
+		"root[0]['message']['response_message_data']['OPT_PSEUDOSECTION']['EDNS']['NSID']",
 		"root[0]['message']['response_message_data']['id']",
 		"root[0]['message']['response_address']")
 	
@@ -47,8 +48,13 @@ if __name__ == "__main__":
 	#e_args = '-4 +norec'
 	#output = '+yaml'
 	
-	file_query = open(args.queryfile, "r")
-	cmd = shlex.split(file_query.readline())
-	file_query.close()
+	#file_query = open(args.queryfile_cmd, "r")
+	for line in open(args.queryfile_cmd, "r"):
+		# print (line)
+		li=line.strip()
+		if not li.startswith("#"):
+			cmd = shlex.split(line.rstrip())
+	#print (cmd)		
+	#file_query.close()
 	#cmd = shlex.split(dig +' @' + server + ' ' + query + ' ' + e_args + ' ' + output)
-	compare_query_result(args.expected,run_dns_query(cmd),exclude)
+	compare_query_result(args.expected_yaml,run_dns_query(cmd),exclude)
