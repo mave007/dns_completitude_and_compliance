@@ -11,6 +11,8 @@ srv_expected="ns.cero32.cl"
 domain="."
 outputdir="tests"
 
+# Change to OFF if you don't have IPv6 connectivity
+test_ipv6="ON"
 
 TESTDESC+=("# SOA record answer")
 TESTS+=("${dig} ${domain} SOA @${srv_test} ${opts} +dnssec")
@@ -163,17 +165,19 @@ for t in "${TESTS[@]}" ; do
 	echo "${query/$srv_test/$srv_expected}" >> ${outputdir}/tests-$(printf "%04d" ${cont}).cmd
     ${query} > ${outputdir}/tests-$(printf "%04d" ${cont}).yaml
 	cont=$((cont+1))
+    if [ "$test_ipv6" == "ON" ]; then
  # IPv6 run UDP
-	query="${t} -6 +notcp"
-	echo "${TESTDESC[$((run))]} IPv6 UDP" > ${outputdir}/tests-$(printf "%04d" ${cont}).cmd	
-	echo "${query/$srv_test/$srv_expected}" >> ${outputdir}/tests-$(printf "%04d" ${cont}).cmd
-    ${query} > ${outputdir}/tests-$(printf "%04d" ${cont}).yaml
-	cont=$((cont+1))
+        query="${t} -6 +notcp"
+        echo "${TESTDESC[$((run))]} IPv6 UDP" > ${outputdir}/tests-$(printf "%04d" ${cont}).cmd	
+        echo "${query/$srv_test/$srv_expected}" >> ${outputdir}/tests-$(printf "%04d" ${cont}).cmd
+        ${query} > ${outputdir}/tests-$(printf "%04d" ${cont}).yaml
+        cont=$((cont+1))
  # IPv6 run TCP
-	query="${t} -6 +tcp"
-	echo "${TESTDESC[$((run))]} IPv6 TCP" > ${outputdir}/tests-$(printf "%04d" ${cont}).cmd		
-	echo "${query/$srv_test/$srv_expected}" >> ${outputdir}/tests-$(printf "%04d" ${cont}).cmd
-    ${query} > ${outputdir}/tests-$(printf "%04d" ${cont}).yaml
-	cont=$((cont+1))
+        query="${t} -6 +tcp"
+        echo "${TESTDESC[$((run))]} IPv6 TCP" > ${outputdir}/tests-$(printf "%04d" ${cont}).cmd		
+        echo "${query/$srv_test/$srv_expected}" >> ${outputdir}/tests-$(printf "%04d" ${cont}).cmd
+        ${query} > ${outputdir}/tests-$(printf "%04d" ${cont}).yaml
+        cont=$((cont+1))
+    fi
 	run=$((run+1))
 done
