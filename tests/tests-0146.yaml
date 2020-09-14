@@ -2,19 +2,19 @@
   type: MESSAGE
   message:
     type: AUTH_RESPONSE
-    query_time: !!timestamp 2020-09-04T17:52:49.743Z
-    response_time: !!timestamp 2020-09-04T17:52:49.814Z
-    message_size: 28b
+    query_time: !!timestamp 2020-09-14T18:36:38.700Z
+    response_time: !!timestamp 2020-09-14T18:36:38.863Z
+    message_size: 56b
     socket_family: INET
     socket_protocol: TCP
-    response_address: 192.0.40.1
+    response_address: 200.1.122.29
     response_port: 53
-    query_address: 10.32.60.17
-    query_port: 63870
+    query_address: 192.168.1.23
+    query_port: 56328
     response_message_data:
       opcode: QUERY
-      status: BADVERS
-      id: 43448
+      status: REFUSED
+      id: 34312
       flags: qr
       QUESTION: 1
       ANSWER: 0
@@ -23,7 +23,8 @@
       OPT_PSEUDOSECTION:
         EDNS:
           version: 0
-          flags: do
+          flags:
           udp: 4096
+          COOKIE: 0102030405060708010000005f5fb836c1aa01f686b2966e (good)
       QUESTION_SECTION:
         - . IN SOA

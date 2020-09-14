@@ -1,0 +1,8 @@
+
+; <<>> DiG 9.16.6 <<>> +edns +noednsneg +nocookie +noad +expire @ns2.cero32.cl SOA . +norec +time=1 +tries=1 +noignore +yaml -4 +notcp
+; (1 server found)
+;; global options: +cmd
+-
+  type: DIG_ERROR
+  message: |
+    connection timed out; no servers could be reached

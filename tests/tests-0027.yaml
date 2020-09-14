@@ -2,43 +2,29 @@
   type: MESSAGE
   message:
     type: AUTH_RESPONSE
-    query_time: !!timestamp 2020-09-04T17:52:30.860Z
-    response_time: !!timestamp 2020-09-04T17:52:30.931Z
-    message_size: 578b
+    query_time: !!timestamp 2020-09-14T18:35:52.445Z
+    response_time: !!timestamp 2020-09-14T18:35:52.667Z
+    message_size: 61b
     socket_family: INET6
     socket_protocol: UDP
-    response_address: ::ffff:192.0.40.1
+    response_address: ::ffff:200.1.122.29
     response_port: 53
     query_address: ::0
-    query_port: 55234
+    query_port: 49566
     response_message_data:
       opcode: QUERY
-      status: NOERROR
-      id: 8827
+      status: REFUSED
+      id: 38996
       flags: qr
       QUESTION: 1
       ANSWER: 0
-      AUTHORITY: 7
-      ADDITIONAL: 7
+      AUTHORITY: 0
+      ADDITIONAL: 1
       OPT_PSEUDOSECTION:
         EDNS:
           version: 0
           flags: do
           udp: 4096
+          COOKIE: 692868e98302b84d010000005f5fb808a6f0c379ab035570 (good)
       QUESTION_SECTION:
-        - cm. IN NS
-      AUTHORITY_SECTION:
-        - cm. 172800 IN NS ns.itu.ch.
-        - cm. 172800 IN NS kim.camnet.cm.
-        - cm. 172800 IN NS lom.camnet.cm.
-        - cm. 172800 IN NS auth02.ns.uu.net.
-        - cm. 172800 IN NS sanaga.camnet.cm.
-        - cm. 86400 IN NSEC cn. NS RRSIG NSEC
-        - cm. 86400 IN RRSIG NSEC 8 1 86400 20200917050000 20200904040000 46594 . CtAvYvp+SP5hV+RN2X0l8agQ4T96MSl23eC7KRPbT3wKtVGgvo5EpnpZ aHe5f7d4NGFJVexBG0+y9lWZOtZtZhWBpPVm3pr0nHX5t63WZc7m4TCY 6pg8dyWARKZ50W5ogocDwSwXFYv05x7jR7aJL0ZpleBIEdyGJBCua6v5 9RVL4uLQ47rtk/rThIHAnLkzIR4p8WYvSHxJGhgM+rK2n8O5CtKR6Phm dL9czQgpUxgyfToUQ+cjH0lfFb/KHnxaJak0XqQVhu4Hx2wSvcDEoXgk arfNrm4JTdHN9cce+4ovWSw7BBHNqIuJVD14OXd4SeH94LUjQlFvoux2 nDuJUA==
-      ADDITIONAL_SECTION:
-        - kim.camnet.cm. 172800 IN A 195.24.192.35
-        - lom.camnet.cm. 172800 IN A 195.24.192.34
-        - sanaga.camnet.cm. 172800 IN A 195.24.192.17
-        - ns.itu.ch. 172800 IN A 156.106.192.121
-        - ns.itu.ch. 172800 IN AAAA 2a00:7580:60:2141::10
-        - auth02.ns.uu.net. 172800 IN A 198.6.1.82
+        - arpa. IN NS

@@ -2,48 +2,29 @@
   type: MESSAGE
   message:
     type: AUTH_RESPONSE
-    query_time: !!timestamp 2020-09-04T17:52:32.095Z
-    response_time: !!timestamp 2020-09-04T17:52:32.166Z
-    message_size: 730b
+    query_time: !!timestamp 2020-09-14T18:35:55.143Z
+    response_time: !!timestamp 2020-09-14T18:35:55.313Z
+    message_size: 60b
     socket_family: INET6
     socket_protocol: UDP
-    response_address: ::ffff:192.0.40.1
+    response_address: ::ffff:200.1.122.29
     response_port: 53
     query_address: ::0
-    query_port: 49162
+    query_port: 51620
     response_message_data:
       opcode: QUERY
-      status: NOERROR
-      id: 1685
+      status: REFUSED
+      id: 351
       flags: qr
       QUESTION: 1
       ANSWER: 0
-      AUTHORITY: 8
-      ADDITIONAL: 11
+      AUTHORITY: 0
+      ADDITIONAL: 1
       OPT_PSEUDOSECTION:
         EDNS:
           version: 0
           flags: do
           udp: 4096
+          COOKIE: 57a64ad4508595d3010000005f5fb80b6beb0009696e3890 (good)
       QUESTION_SECTION:
-        - by. IN NS
-      AUTHORITY_SECTION:
-        - by. 172800 IN NS dns1.tld.tutby.com.
-        - by. 172800 IN NS dns2.tld.tutby.com.
-        - by. 172800 IN NS dns3.tld.tutby.com.
-        - by. 172800 IN NS dns4.tld.tutby.com.
-        - by. 172800 IN NS dns5.tld.tutby.com.
-        - by. 86400 IN DS 43875 7 1 B5667014733F0FD07D096B2FA2AD175186ADF48C
-        - by. 86400 IN DS 43875 7 2 27A33067E54A8C4CEE091DB22156EF02A79A76CCC1E48D6D195DFEF6 D520C48E
-        - by. 86400 IN RRSIG DS 8 1 86400 20200917050000 20200904040000 46594 . lxI6AEw8u+/Idr8jbMfcmxBWpdNYFoiK+0V8C9vXy+Wrc4fjd4vb+8YA WW0lofSNATtZ7SsSDZzVucQQkNMb8CuW6kSvcVRKbhOHPmVfqO3qmo/4 r20OuDopVD6AcRM7Ig82z9+uOTQohEVigMwVqQIiKMpN9d1P7e5fNjHk ZDMFMjGGsS2wuYtY4kMENUvLGlBt9U6It0MM72rd+8hGCv1NKzVqVQKn RlKnNQIZMReUlJo54x8/B+JfqxDqNTXZWP9g8KzBqlW98ybcQy2e/XVA ElfnUzh2saX5xaRqAAkZqq7s8YFBHNpvrswYXejr6gnhXl0KBFn/luur hB09mA==
-      ADDITIONAL_SECTION:
-        - dns1.tld.tutby.com. 172800 IN A 178.172.160.20
-        - dns1.tld.tutby.com. 172800 IN AAAA 2a04:2e80:7::2
-        - dns2.tld.tutby.com. 172800 IN A 93.125.30.44
-        - dns2.tld.tutby.com. 172800 IN AAAA 2a04:2e80:7:1::2
-        - dns3.tld.tutby.com. 172800 IN A 195.209.35.70
-        - dns3.tld.tutby.com. 172800 IN AAAA 2a05:4800:1:100::0
-        - dns4.tld.tutby.com. 172800 IN A 62.212.73.101
-        - dns4.tld.tutby.com. 172800 IN AAAA 2001:1af8:4010:a049:1::0
-        - dns5.tld.tutby.com. 172800 IN A 46.165.217.94
-        - dns5.tld.tutby.com. 172800 IN AAAA 2a00:c98:2200:a012:1::0
+        - com. IN NS

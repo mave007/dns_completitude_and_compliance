@@ -1,2 +1,2 @@
-# Known NS record IPv6 TCP
-/usr/local/bin/dig cm NS @l.root-servers.net +dnssec +norec +time=2 +tries=1 +noignore +yaml  -6 +tcp
+# Known NS record: arpa (13) IPv6 TCP
+/usr/local/bin/dig arpa NS @ns.cero32.cl +norec +time=1 +tries=1 +noignore +yaml +dnssec  -6 +tcp

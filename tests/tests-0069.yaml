@@ -2,21 +2,21 @@
   type: MESSAGE
   message:
     type: AUTH_RESPONSE
-    query_time: !!timestamp 2020-09-04T17:52:37.336Z
-    response_time: !!timestamp 2020-09-04T17:52:37.407Z
-    message_size: 23b
+    query_time: !!timestamp 2020-09-14T18:36:06.355Z
+    response_time: !!timestamp 2020-09-14T18:36:06.528Z
+    message_size: 56b
     socket_family: INET
     socket_protocol: UDP
-    response_address: 192.0.40.1
+    response_address: 200.1.122.29
     response_port: 53
     query_address: 0.0.0.0
-    query_port: 64272
+    query_port: 50425
     response_message_data:
-      opcode: RESERVED15
-      status: NOTIMP
-      id: 5066
-      flags: qr
-      QUESTION: 0
+      opcode: QUERY
+      status: REFUSED
+      id: 6561
+      flags: qr cd
+      QUESTION: 1
       ANSWER: 0
       AUTHORITY: 0
       ADDITIONAL: 1
@@ -25,3 +25,6 @@
           version: 0
           flags: do
           udp: 4096
+          COOKIE: 4d6250c2766aaecb010000005f5fb816b6e8b61ee10ca1ec (good)
+      QUESTION_SECTION:
+        - . IN SOA

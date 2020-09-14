@@ -1,2 +1,2 @@
-# No cookie IPv4 UDP
-/usr/local/bin/dig +edns=0 +nocookie +noad +dnssec @l.root-servers.net SOA . +dnssec +norec +time=2 +tries=1 +noignore +yaml -4 +notcp
+# edns=1 IPv4 UDP
+/usr/local/bin/dig +edns=1 +noednsneg +nocookie +noad @ns.cero32.cl SOA . +norec +time=1 +tries=1 +noignore +yaml +dnssec -4 +notcp

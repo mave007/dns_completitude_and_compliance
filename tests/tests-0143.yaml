@@ -2,19 +2,19 @@
   type: MESSAGE
   message:
     type: AUTH_RESPONSE
-    query_time: !!timestamp 2020-09-04T17:52:49.169Z
-    response_time: !!timestamp 2020-09-04T17:52:49.242Z
-    message_size: 48b
+    query_time: !!timestamp 2020-09-14T18:36:37.663Z
+    response_time: !!timestamp 2020-09-14T18:36:37.828Z
+    message_size: 44b
     socket_family: INET6
     socket_protocol: UDP
-    response_address: ::ffff:192.0.40.1
+    response_address: ::ffff:200.1.122.29
     response_port: 53
     query_address: ::0
-    query_port: 49980
+    query_port: 61312
     response_message_data:
       opcode: QUERY
-      status: BADVERS
-      id: 4295
+      status: REFUSED
+      id: 33677
       flags: qr
       QUESTION: 1
       ANSWER: 0
@@ -23,8 +23,8 @@
       OPT_PSEUDOSECTION:
         EDNS:
           version: 0
-          flags: do
+          flags:
           udp: 4096
-          NSID: 61 61 2e 75 73 2d 72 74 76 2e 6c 2e 72 6f 6f 74 ("aa.us-rtv.l.root")
+          NSID: 6e 73 2e 63 65 72 6f 33 32 2e 63 6c ("ns.cero32.cl")
       QUESTION_SECTION:
         - . IN SOA

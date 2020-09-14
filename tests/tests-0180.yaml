@@ -1,0 +1,24 @@
+-
+  type: MESSAGE
+  message:
+    type: AUTH_RESPONSE
+    query_time: !!timestamp 2020-09-14T18:36:57.973Z
+    response_time: !!timestamp 2020-09-14T18:36:58.167Z
+    message_size: 17b
+    socket_family: INET6
+    socket_protocol: TCP
+    response_address: ::ffff:200.1.122.29
+    response_port: 53
+    query_address: ::ffff:192.168.1.23
+    query_port: 56351
+    response_message_data:
+      opcode: QUERY
+      status: REFUSED
+      id: 8692
+      flags: qr
+      QUESTION: 1
+      ANSWER: 0
+      AUTHORITY: 0
+      ADDITIONAL: 0
+      QUESTION_SECTION:
+        - . IN TYPE1000

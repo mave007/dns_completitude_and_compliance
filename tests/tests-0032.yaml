@@ -2,52 +2,29 @@
   type: MESSAGE
   message:
     type: AUTH_RESPONSE
-    query_time: !!timestamp 2020-09-04T17:52:31.668Z
-    response_time: !!timestamp 2020-09-04T17:52:31.740Z
-    message_size: 812b
+    query_time: !!timestamp 2020-09-14T18:35:54.275Z
+    response_time: !!timestamp 2020-09-14T18:35:54.448Z
+    message_size: 60b
     socket_family: INET6
     socket_protocol: TCP
-    response_address: ::ffff:192.0.40.1
+    response_address: ::ffff:200.1.122.29
     response_port: 53
-    query_address: ::ffff:10.32.60.17
-    query_port: 63810
+    query_address: ::ffff:192.168.1.23
+    query_port: 56264
     response_message_data:
       opcode: QUERY
-      status: NOERROR
-      id: 41546
+      status: REFUSED
+      id: 28050
       flags: qr
       QUESTION: 1
       ANSWER: 0
-      AUTHORITY: 9
-      ADDITIONAL: 14
+      AUTHORITY: 0
+      ADDITIONAL: 1
       OPT_PSEUDOSECTION:
         EDNS:
           version: 0
           flags: do
           udp: 4096
+          COOKIE: 291dc4fcf77ac121010000005f5fb80acfac1bc3a5cd0811 (good)
       QUESTION_SECTION:
-        - cl. IN NS
-      AUTHORITY_SECTION:
-        - cl. 172800 IN NS a.nic.cl.
-        - cl. 172800 IN NS b.nic.cl.
-        - cl. 172800 IN NS c.nic.cl.
-        - cl. 172800 IN NS cl1.dnsnode.net.
-        - cl. 172800 IN NS cl-ns.anycast.pch.net.
-        - cl. 172800 IN NS cl1-tld.d-zone.ca.
-        - cl. 172800 IN NS cl2-tld.d-zone.ca.
-        - cl. 86400 IN DS 21199 8 2 7D756DFFAB6D3CD9C786FF5C659954C22944FAEF9433EEE26F1D84EB 5370B394
-        - cl. 86400 IN RRSIG DS 8 1 86400 20200917050000 20200904040000 46594 . OHM4LEyhF6A7CcY5rRzboANYMNhX810x5Q9mOBgRuP6ZYU8n3HX3HTcv pDeeY1edMEJYLVpL211gWizAk8ShCIbE/a8hTZABEYrpi0UpDwaLSmbs Bh+2dwRnK58zdYDoud7XZZbmE68jcjKMht4tVzpgUkz6m/i7SyMjS7vC qadeE/py4GRvqXV9baGMwuK7TgSV7vhwmm7QzKcd0UrgjmIOXjlhJxel TFEGi9GE9CMVxnpsxevOSLi5Nq7HjM1TV2aoSq6VvZAVnYep8loBJpcg pC0gKC44H6lweM1zg0Uf1yOk3iFCJOiWzxHCDDCHY32h/qBQ43OgNepD tsiQ0Q==
-      ADDITIONAL_SECTION:
-        - a.nic.cl. 172800 IN A 190.124.27.10
-        - a.nic.cl. 172800 IN AAAA 2001:1398:121::190:124:27:10
-        - b.nic.cl. 172800 IN A 200.7.4.7
-        - b.nic.cl. 172800 IN AAAA 2001:1398:274::200:7:4:7
-        - c.nic.cl. 172800 IN A 200.16.112.16
-        - cl1.dnsnode.net. 172800 IN A 194.146.106.34
-        - cl1.dnsnode.net. 172800 IN AAAA 2001:67c:1010:8::53
-        - cl-ns.anycast.pch.net. 172800 IN A 204.61.216.30
-        - cl-ns.anycast.pch.net. 172800 IN AAAA 2001:500:14:6030:ad::1
-        - cl1-tld.d-zone.ca. 172800 IN A 185.159.197.56
-        - cl1-tld.d-zone.ca. 172800 IN AAAA 2620:10a:80aa::56
-        - cl2-tld.d-zone.ca. 172800 IN A 185.159.198.56
-        - cl2-tld.d-zone.ca. 172800 IN AAAA 2620:10a:80ab::56
+        - edu. IN NS

@@ -2,22 +2,22 @@
   type: MESSAGE
   message:
     type: AUTH_RESPONSE
-    query_time: !!timestamp 2020-09-04T17:52:29.509Z
-    response_time: !!timestamp 2020-09-04T17:52:29.579Z
-    message_size: 402b
+    query_time: !!timestamp 2020-09-14T18:35:49.585Z
+    response_time: !!timestamp 2020-09-14T18:35:49.774Z
+    message_size: 59b
     socket_family: INET
     socket_protocol: TCP
-    response_address: 192.0.40.1
+    response_address: 200.1.122.29
     response_port: 53
-    query_address: 10.32.60.17
-    query_port: 63803
+    query_address: 192.168.1.23
+    query_port: 56255
     response_message_data:
       opcode: QUERY
-      status: NOERROR
-      id: 43297
-      flags: qr aa
+      status: REFUSED
+      id: 31938
+      flags: qr
       QUESTION: 1
-      ANSWER: 3
+      ANSWER: 0
       AUTHORITY: 0
       ADDITIONAL: 1
       OPT_PSEUDOSECTION:
@@ -25,9 +25,6 @@
           version: 0
           flags: do
           udp: 4096
+          COOKIE: 1d48290165d0a9b2010000005f5fb805a08e5a1ff8dfe97c (good)
       QUESTION_SECTION:
         - us. IN DS
-      ANSWER_SECTION:
-        - us. 86400 IN DS 21364 8 1 260D0461242BCF8F05473A08B05ED01E6FA59B9C
-        - us. 86400 IN DS 21364 8 2 B499CFA7B54D25FDE1E6FE93076FB013DAA664DA1F26585324740A1E 6EBDAB26
-        - us. 86400 IN RRSIG DS 8 1 86400 20200917050000 20200904040000 46594 . hYbH58ZH9721YGIixSxrkoK2hvP8b4Ef9FURGCLCvh948TROR2TqFEHx cn/ijYxGx45IlBl/vgAy1ROAO4THFXOPio8A7NSQdH2fJM+x4Jk2Q33w dzERlhDG01ytJrawiHCaflWA8wE3VbieOIVj1ViNJl1L4TzzfW3kUJlr u5NUSu67ozqWDUGV0WsNZUdtgn2x7aSVXRSH2CZFZvzAb5vFbfMCQZiw ghiwooUZIP3sW/fCDw8Gys1bDTNXgMrmf2mace0xmYlKWd/Mci5lggFa JvsVqKsxyIsXpAnyHRRx47wQvV2SocWZUKP00FSsBqLkkLXxkkrhYVX0 hhGSwQ==

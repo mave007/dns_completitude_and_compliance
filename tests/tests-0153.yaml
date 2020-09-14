@@ -1,29 +1,8 @@
+
+; <<>> DiG 9.16.6 <<>> +edns +nocookie +noad +subnet +expire @ns2.cero32.cl SOA . +norec +time=1 +tries=1 +noignore +yaml -4 +notcp
+; (1 server found)
+;; global options: +cmd
 -
-  type: MESSAGE
-  message:
-    type: AUTH_RESPONSE
-    query_time: !!timestamp 2020-09-04T17:52:50.799Z
-    response_time: !!timestamp 2020-09-04T17:52:50.870Z
-    message_size: 28b
-    socket_family: INET
-    socket_protocol: UDP
-    response_address: 192.0.40.1
-    response_port: 53
-    query_address: 0.0.0.0
-    query_port: 49846
-    response_message_data:
-      opcode: QUERY
-      status: BADVERS
-      id: 29137
-      flags: qr
-      QUESTION: 1
-      ANSWER: 0
-      AUTHORITY: 0
-      ADDITIONAL: 1
-      OPT_PSEUDOSECTION:
-        EDNS:
-          version: 0
-          flags: do
-          udp: 4096
-      QUESTION_SECTION:
-        - . IN SOA
+  type: DIG_ERROR
+  message: |
+    connection timed out; no servers could be reached

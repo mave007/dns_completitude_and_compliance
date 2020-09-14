@@ -2,22 +2,22 @@
   type: MESSAGE
   message:
     type: AUTH_RESPONSE
-    query_time: !!timestamp 2020-09-04T17:52:43.786Z
-    response_time: !!timestamp 2020-09-04T17:52:43.857Z
-    message_size: 389b
+    query_time: !!timestamp 2020-09-14T18:36:21.357Z
+    response_time: !!timestamp 2020-09-14T18:36:21.580Z
+    message_size: 28b
     socket_family: INET
     socket_protocol: UDP
-    response_address: 192.0.40.1
+    response_address: 200.1.122.29
     response_port: 53
     query_address: 0.0.0.0
-    query_port: 53771
+    query_port: 52368
     response_message_data:
       opcode: QUERY
-      status: NOERROR
-      id: 45772
-      flags: qr aa
+      status: REFUSED
+      id: 52383
+      flags: qr
       QUESTION: 1
-      ANSWER: 2
+      ANSWER: 0
       AUTHORITY: 0
       ADDITIONAL: 1
       OPT_PSEUDOSECTION:
@@ -26,7 +26,4 @@
           flags: do
           udp: 4096
       QUESTION_SECTION:
-        - . IN SOA
-      ANSWER_SECTION:
-        - . 86400 IN SOA a.root-servers.net. nstld.verisign-grs.com. 2020090400 1800 900 604800 86400
-        - . 86400 IN RRSIG SOA 8 0 86400 20200917050000 20200904040000 46594 . 1fdHmAs7tAYpPxPgpft+mokcbhvgNXDmXjut7gMhHHviC/PHGeYKyw7H +3dkmbEhmk8HKhfthn4Vxr9uTotST71TOra7/kNolxlRj9e5s4CIaHDG 4IM+dshoFnqhN+ocd04n9ohdjRW63Vi1fy7N8kfQEaml+EP5ZeE66fQI MLsV2C7WuoU/vULmJvfWam4tXcN5n1QKGouMJCIb7067hyvhkXGJPTxk ByCH+Wqqcdtom83WnCPHe5P9m9PiNLBcVkTvcO8lX3OW+P38Dxa4wTeb fQT2qksEu1Q7sGe66wyj0dZWPeNaslxRTzoaAuDs0RaXSJnIdjHobDT8 8ELgDQ==
+        - . IN DNSKEY

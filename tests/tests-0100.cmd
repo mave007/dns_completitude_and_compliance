@@ -1,2 +1,2 @@
-# edns=0 with unknown option 100 IPv6 TCP
-/usr/local/bin/dig +edns=0 +nocookie +noad +ednsopt=100 @l.root-servers.net SOA . +dnssec +norec +time=2 +tries=1 +noignore +yaml -6 +tcp
+# TCP query only IPv6 TCP
+/usr/local/bin/dig +noedns +noad +tcp @ns.cero32.cl SOA . +norec +time=1 +tries=1 +noignore +yaml +dnssec -6 +tcp

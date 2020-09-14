@@ -1,0 +1,29 @@
+-
+  type: MESSAGE
+  message:
+    type: AUTH_RESPONSE
+    query_time: !!timestamp 2020-09-14T18:36:50.912Z
+    response_time: !!timestamp 2020-09-14T18:36:51.133Z
+    message_size: 28b
+    socket_family: INET
+    socket_protocol: TCP
+    response_address: 200.1.122.29
+    response_port: 53
+    query_address: 192.168.1.23
+    query_port: 56343
+    response_message_data:
+      opcode: QUERY
+      status: BADVERS
+      id: 28433
+      flags: qr
+      QUESTION: 1
+      ANSWER: 0
+      AUTHORITY: 0
+      ADDITIONAL: 1
+      OPT_PSEUDOSECTION:
+        EDNS:
+          version: 0
+          flags:
+          udp: 4096
+      QUESTION_SECTION:
+        - . IN SOA

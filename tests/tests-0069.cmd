@@ -1,2 +1,2 @@
-# Unknown/unassigned opcode (code 15) IPv4 UDP
-/usr/local/bin/dig +noedns +noad +header-only +opcode=15 @l.root-servers.net +dnssec +norec +time=2 +tries=1 +noignore +yaml  -4 +notcp
+# Recursion available flags IPv4 UDP
+/usr/local/bin/dig +noedns +noad +cd +raflag SOA . @ns.cero32.cl +norec +time=1 +tries=1 +noignore +yaml +dnssec  -4 +notcp

@@ -2,19 +2,19 @@
   type: MESSAGE
   message:
     type: AUTH_RESPONSE
-    query_time: !!timestamp 2020-09-04T17:52:44.904Z
-    response_time: !!timestamp 2020-09-04T17:52:44.976Z
+    query_time: !!timestamp 2020-09-14T18:36:23.849Z
+    response_time: !!timestamp 2020-09-14T18:36:24.017Z
     message_size: 28b
     socket_family: INET6
     socket_protocol: TCP
-    response_address: ::ffff:192.0.40.1
+    response_address: ::ffff:200.1.122.29
     response_port: 53
-    query_address: ::ffff:10.32.60.17
-    query_port: 63854
+    query_address: ::ffff:192.168.1.23
+    query_port: 56313
     response_message_data:
       opcode: QUERY
-      status: BADVERS
-      id: 9665
+      status: REFUSED
+      id: 10261
       flags: qr
       QUESTION: 1
       ANSWER: 0

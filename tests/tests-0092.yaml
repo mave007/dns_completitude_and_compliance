@@ -2,21 +2,21 @@
   type: MESSAGE
   message:
     type: AUTH_RESPONSE
-    query_time: !!timestamp 2020-09-04T17:52:40.924Z
-    response_time: !!timestamp 2020-09-04T17:52:40.995Z
-    message_size: 28b
+    query_time: !!timestamp 2020-09-14T18:36:14.158Z
+    response_time: !!timestamp 2020-09-14T18:36:14.351Z
+    message_size: 51b
     socket_family: INET6
     socket_protocol: TCP
-    response_address: ::ffff:192.0.40.1
+    response_address: ::ffff:200.1.122.29
     response_port: 53
-    query_address: ::ffff:10.32.60.17
-    query_port: 63840
+    query_address: ::ffff:192.168.1.23
+    query_port: 56300
     response_message_data:
-      opcode: QUERY
-      status: BADVERS
-      id: 39635
+      opcode: RESERVED15
+      status: NOTIMP
+      id: 21640
       flags: qr
-      QUESTION: 1
+      QUESTION: 0
       ANSWER: 0
       AUTHORITY: 0
       ADDITIONAL: 1
@@ -25,5 +25,4 @@
           version: 0
           flags: do
           udp: 4096
-      QUESTION_SECTION:
-        - . IN SOA
+          COOKIE: ab985fd0e3db581b010000005f5fb81e30f64519d9c1b2c2 (good)

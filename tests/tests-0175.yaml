@@ -1,0 +1,29 @@
+-
+  type: MESSAGE
+  message:
+    type: AUTH_RESPONSE
+    query_time: !!timestamp 2020-09-14T18:36:56.149Z
+    response_time: !!timestamp 2020-09-14T18:36:56.352Z
+    message_size: 28b
+    socket_family: INET6
+    socket_protocol: UDP
+    response_address: ::ffff:200.1.122.29
+    response_port: 53
+    query_address: ::0
+    query_port: 49186
+    response_message_data:
+      opcode: QUERY
+      status: REFUSED
+      id: 63176
+      flags: qr
+      QUESTION: 1
+      ANSWER: 0
+      AUTHORITY: 0
+      ADDITIONAL: 1
+      OPT_PSEUDOSECTION:
+        EDNS:
+          version: 0
+          flags: do
+          udp: 4096
+      QUESTION_SECTION:
+        - . IN DNSKEY

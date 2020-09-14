@@ -2,19 +2,19 @@
   type: MESSAGE
   message:
     type: AUTH_RESPONSE
-    query_time: !!timestamp 2020-09-04T17:52:42.743Z
-    response_time: !!timestamp 2020-09-04T17:52:42.814Z
+    query_time: !!timestamp 2020-09-14T18:36:17.446Z
+    response_time: !!timestamp 2020-09-14T18:36:17.619Z
     message_size: 28b
     socket_family: INET
     socket_protocol: TCP
-    response_address: 192.0.40.1
+    response_address: 200.1.122.29
     response_port: 53
-    query_address: 10.32.60.17
-    query_port: 63847
+    query_address: 192.168.1.23
+    query_port: 56305
     response_message_data:
       opcode: QUERY
-      status: BADVERS
-      id: 34472
+      status: REFUSED
+      id: 40384
       flags: qr
       QUESTION: 1
       ANSWER: 0
