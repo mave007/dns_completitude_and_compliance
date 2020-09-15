@@ -25,12 +25,12 @@ the same capabilities
 # Requirements
 
 - dig (bind-utils or dnsutils) > 9.15.4
-- Python libraries (via pip3):
+- Python 3.8 libraries (via pip3) See [REQUIREMENTS](REQUIREMENTS) for further instructions:
   - PyYAML
   - argparse
   - shlex
   - subprocess
-  - DeepDiff
+  - DeepDiff['murmur'] 
 
 # Usage:
 Create a command line dig command with the query you want to perform
