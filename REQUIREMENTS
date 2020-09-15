@@ -1,0 +1,18 @@
+# Ubuntu
+sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt update
+sudo apt install python3.8 python3.8-venv python3.8-dev
+
+# MacOS
+brew install python@3.8
+
+# Virtualenv
+python3.8 -m venv ~/pip38
+source ~/pip38/bin/activate
+~/pip38/bin/python3.8 -m pip install --upgrade pip setuptools wheel
+
+# Python 3 (under pip3 virtualenv)
+pip3 install PyYAML
+pip3 install argparse
+pip3 install subprocess.run
+pip3 install 'deepdiff[murmur]'
